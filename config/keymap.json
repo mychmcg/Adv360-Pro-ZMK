@@ -20,11 +20,11 @@
          "&none",          "&none",          "&none",       "&none",       "&none",            "&kp SPACE", "&lt 5 H", "&lt 4 BSPC",              "&lt 3 DEL", "&lt 2 L", "&kp SPACE",            "&none",       "&none",           "&none",           "&none",     "&none"
     ], 
     [
-       "&trans", "&trans", "&trans", "&trans",    "&trans", "&trans","&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&LS(C)", "&LS(Y)", "&LS(O)",    "&LS(K)", "&trans","&trans",                                                             "&trans",  "&none", "&LS(B)", "&LS(F)", "&LS(W)", "&LS(Q)", "&trans",
-       "&trans", "&LS(D)", "&LS(I)", "&LS(E)",    "&LS(A)", "&LS(U)","&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&LS(G)", "&LS(T)", "&LS(N)", "&LS(S)", "&LS(R)", "&trans",
-       "&trans", "&LS(Z)", "&LS(J)","&kp DQT", "&kp COMMA", "&trans",                    "&trans",                     "&trans",                      "&none", "&LS(P)", "&LS(M)", "&LS(V)", "&LS(X)", "&trans",
-       "&trans", "&trans", "&trans", "&trans",    "&trans",          "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+       "&trans",    "&trans",    "&trans",    "&trans",       "&trans",    "&trans","&trans",                                                             "&trans",    "&trans",    "&trans",    "&trans",    "&trans",    "&trans", "&trans",
+       "&trans", "&KP LS(C)", "&KP LS(Y)", "&KP LS(O)",    "&KP LS(K)",    "&trans","&trans",                                                             "&trans",     "&none", "&KP LS(B)", "&KP LS(F)", "&KP LS(W)", "&KP LS(Q)", "&trans",
+       "&trans", "&KP LS(D)", "&KP LS(I)", "&KP LS(E)",    "&KP LS(A)", "&KP LS(U)","&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&KP LS(G)", "&KP LS(T)", "&KP LS(N)", "&KP LS(S)", "&KP LS(R)", "&trans",
+       "&trans", "&KP LS(Z)", "&KP LS(J)",   "&kp DQT",    "&kp COMMA",    "&trans",                    "&trans",                     "&trans",                         "&none", "&KP LS(P)", "&KP LS(M)", "&KP LS(V)", "&KP LS(X)", "&trans",
+       "&trans",    "&trans",    "&trans",    "&trans",       "&trans",             "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                 "&trans",    "&trans",    "&trans",    "&trans", "&trans"
     ],
     [
        "&trans",    "&trans",    "&trans",    "&trans",    "&trans",   "&trans","&trans",                                                             "&trans",   "&trans",   "&trans",    "&trans",    "&trans",    "&trans", "&trans",
