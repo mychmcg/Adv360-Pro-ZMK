@@ -4,28 +4,62 @@
   "layout": "LAYOUT",
   "layer_names": [
     "base",
-    "sus",
-    "Shifted"
+    "shifted1", 
+    "symbols2",
+    "numbers3",
+    "arrows4",
+    "mouse5",
+    "gaming6"
   ],
   "layers": [
     [
-       "&kp ESC",         "&kp N1",         "&kp N2",      "&kp N3",           "&kp N4", "&kp N5",              "&none",                                                                        "&none", "&kp N6",            "&kp N7",      "&kp N8",          "&kp N9",          "&kp N0",     "&none",
-         "&none",          "&kp C",          "&kp Y",       "&kp O",       "&kp KP_DOT",  "&none",              "&none",                                                                        "&none",  "&kp J",             "&kp B",       "&kp F",           "&kp W",           "&kp Q",     "&none",
-       "&kp TAB", "&mt LEFT_GUI D", "&mt LEFT_ALT I", "&mt LCTRL E", "&mt LEFT_SHIFT A",  "&kp U",              "&none",   "&none",    "&none",                       "&none",     "&none",     "&none",  "&kp G", "&mt RIGHT_SHIFT T", "&mt RCTRL N", "&mt RIGHT_ALT S", "&mt RIGHT_GUI R", "&kp ENTER",
-         "&none",          "&kp Z",        "&kp SQT",       "&none",     "&kp KP_COMMA",  "&none",                                     "&none",                       "&none",                            "&kp K",             "&kp P",       "&kp M",           "&kp V",           "&kp X",     "&none",
-         "&none",          "&none",          "&none",       "&none",            "&none",                     "&kp BSPC", "&kp DEL", "&kp BSPC",                     "&kp DEL", "&kp ENTER", "&kp SPACE",                       "&none",       "&none",           "&none",           "&none",     "&none"
-    ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
-    ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+       "&kp ESC",          "&none",          "&none",       "&none",       "&none",  "&none",      "&none",                                                                   "&none",  "&none",  "&none",       "&none",           "&none",           "&none",     "&none",
+         "&none",          "&kp C",          "&kp Y",       "&kp O",       "&kp K",  "&none",      "&none",                                                                   "&none",  "&none",  "&kp B",       "&kp F",           "&kp W",           "&kp Q",     "&none",
+       "&kp TAB", "&mt LEFT_GUI D", "&mt LEFT_ALT I", "&mt LCTRL E",     "&lt 1 A",  "&kp U",      "&none",   "&none",      "&none",                  "&none",   "&none",     "&none",  "&kp G","&lt 1 T", "&mt RCTRL N", "&mt RIGHT_ALT S", "&mt RIGHT_GUI R", "&kp ENTER",
+         "&none",          "&kp Z",          "&kp J",     "&kp SQT",     "&kp DOT",  "&none",                               "&none",                  "&none",                          "&none",  "&kp P",       "&kp M",           "&kp V",           "&kp X",     "&none",
+         "&none",          "&none",          "&none",       "&none",       "&none",            "&kp SPACE", "&lt 5 H", "&lt 4 BSPC",              "&lt 3 DEL", "&lt 2 L", "&kp SPACE",            "&none",       "&none",           "&none",           "&none",     "&none"
+    ], 
+    [
+       "&trans", "&trans", "&trans", "&trans",    "&trans", "&trans","&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&LS(C)", "&LS(Y)", "&LS(O)",    "&LS(K)", "&trans","&trans",                                                             "&trans",  "&none", "&LS(B)", "&LS(F)", "&LS(W)", "&LS(Q)", "&trans",
+       "&trans", "&LS(D)", "&LS(I)", "&LS(E)",    "&LS(A)", "&LS(U)","&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&LS(G)", "&LS(T)", "&LS(N)", "&LS(S)", "&LS(R)", "&trans",
+       "&trans", "&LS(Z)", "&LS(J)","&kp DQT", "&kp COMMA", "&trans",                    "&trans",                     "&trans",                      "&none", "&LS(P)", "&LS(M)", "&LS(V)", "&LS(X)", "&trans",
+       "&trans", "&trans", "&trans", "&trans",    "&trans",          "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+    ],
+    [
+       "&trans",    "&trans",    "&trans",    "&trans",    "&trans",   "&trans","&trans",                                                             "&trans",   "&trans",   "&trans",    "&trans",    "&trans",    "&trans", "&trans",
+       "&trans", "&kp TILDE",  "&kp PLUS", "&kp MINUS",  "&kp STAR", "&kp BSLH","&trans",                                                             "&trans", "&kp FSLH", "&kp AMPS",  "&kp PIPE",  "&kp EXCL", "&kp COLON", "&trans",
+       "&trans",  "&kp HASH",  "&kp LBKT",  "&kp LBRC",  "&kp LPAR",   "&kp LT","&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",   "&kp GT", "&kp RPAR",  "&kp RBRC",  "&kp RBKT",  "&kp SEMI", "&trans",
+       "&trans", "&kp CARET", "&kp GRAVE", "&kp PRCNT", "&kp EQUAL",   "&trans",                    "&trans",                     "&trans",                       "&trans",   "&kp AT", "&kp UNDER", "&kp QMARK",  "&kp DLLR", "&trans",
+       "&trans",    "&trans",    "&trans",    "&trans",    "&trans",            "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",               "&trans",    "&trans",    "&trans",    "&trans", "&trans"
+    ],
+    [
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans","&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans","&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans","&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                    "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans",          "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+    ],
+    [
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans","&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans","&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans","&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                    "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans",          "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+    ],
+    [
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans","&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans","&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans","&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                    "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans",          "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+    ],
+    [
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans","&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans","&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans","&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                    "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans",          "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ]
   ]
 }
