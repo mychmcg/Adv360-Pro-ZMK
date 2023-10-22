@@ -9,11 +9,12 @@
     "numbers3",
     "arrows4",
     "mouse5",
-    "gaming6"
+    "gaming6",
+    "keyboard7"
   ],
   "layers": [
     [
-       "&kp ESC",          "&none",          "&none",       "&none",   "&none",  "&none",               "&none",                                                                          "&none",  "&none",   "&none",       "&none",           "&none",           "&none",     "&none",
+       "&kp ESC",          "&none",          "&none",       "&none",   "&none",  "&none",               "&none",                                                                          "&mo7",  "&none",   "&none",       "&none",           "&none",           "&none",     "&none",
          "&none",          "&kp C",          "&kp Y",       "&kp O",   "&kp K",  "&none",               "&none",                                                                          "&none",  "&none",   "&kp B",       "&kp F",           "&kp W",           "&kp Q",     "&none",
        "&kp TAB", "&mt LEFT_GUI D", "&mt LEFT_ALT I", "&mt LCTRL E", "&lt 1 A",  "&kp U",               "&none",   "&none",      "&none",                         "&none",   "&none",     "&none",  "&kp G", "&lt 1 T", "&mt RCTRL N", "&mt RIGHT_ALT S", "&mt RIGHT_GUI R", "&kp ENTER",
          "&none",          "&kp Z",          "&kp J",     "&kp SQT", "&kp DOT",  "&none",                                        "&none",                         "&none",                          "&none",   "&kp P",       "&kp M",           "&kp V",           "&kp X",     "&none",
@@ -54,6 +55,12 @@
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+    ], [
+      "&none ", "&bt BT_SEL 0 ", "&bt BT_SEL 1 ", "&bt BT_SEL 2 ", "&bt BT_SEL 3 ", "&bt BT_SEL 4 ", "&none                                                                                        ", "&trans        ", "&none        ", "&none        ", "&none        ", "&none        ", "&none        ", "&none",
+      "&none ", "&none        ", "&none        ", "&none        ", "&none        ", "&none        ", "&bootloader                                                                                  ", "&bootloader   ", "&none        ", "&none        ", "&none        ", "&none        ", "&none        ", "&none",
+      "&none ", "&none        ", "&none        ", "&none        ", "&none        ", "&none        ", "&none                ", "&none", "&none ", "&bt BT_CLR ", "&none ",                             "&rgb_ug RGB_MEFS_CMD 5 ", "&none        ", "&none        ", "&none        ", "&none        ", "&none        ", "&none",
+      "&none ", "&none        ", "&none        ", "&none        ", "&none        ", "&none                                          ", "&none ", "&none ",                                                              "&none        ", "&none        ", "&none        ", "&none        ", "&none        ", "&none",
+      "&none ", "&none        ", "&none        ", "&none        ", "&none                                         ", "&none", "&none", "&none ", "&none      ", "&bl BL_TOG ", "&rgb_ug RGB_TOG                                ", "&bl BL_INC   ", "&bl BL_DEC   ", "&none        ", "&none        ", "&none"
     ]
   ]
 }
