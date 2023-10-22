@@ -21,9 +21,9 @@
     ], 
     [
        "&trans",    "&trans",    "&trans",    "&trans",       "&trans",    "&trans","&trans",                                                             "&trans",    "&trans",    "&trans",    "&trans",    "&trans",    "&trans", "&trans",
-       "&trans", "&KP LS(C)", "&KP LS(Y)", "&KP LS(O)",    "&KP LS(K)",    "&trans","&trans",                                                             "&trans",     "&none", "&KP LS(B)", "&KP LS(F)", "&KP LS(W)", "&KP LS(Q)", "&trans",
-       "&trans", "&KP LS(D)", "&KP LS(I)", "&KP LS(E)",    "&KP LS(A)", "&KP LS(U)","&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&KP LS(G)", "&KP LS(T)", "&KP LS(N)", "&KP LS(S)", "&KP LS(R)", "&trans",
-       "&trans", "&KP LS(Z)", "&KP LS(J)",   "&kp DQT",    "&kp COMMA",    "&trans",                    "&trans",                     "&trans",                         "&none", "&KP LS(P)", "&KP LS(M)", "&KP LS(V)", "&KP LS(X)", "&trans",
+       "&trans", "&kp LS(C)", "&kp LS(Y)", "&kp LS(O)",    "&kp LS(K)",    "&trans","&trans",                                                             "&trans",     "&none", "&kp LS(B)", "&kp LS(F)", "&kp LS(W)", "&kp LS(Q)", "&trans",
+       "&trans", "&kp LS(D)", "&kp LS(I)", "&kp LS(E)",    "&kp LS(A)", "&kp LS(U)","&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&kp LS(G)", "&kp LS(T)", "&kp LS(N)", "&kp LS(S)", "&kp LS(R)", "&trans",
+       "&trans", "&kp LS(Z)", "&kp LS(J)",   "&kp DQT",    "&kp COMMA",    "&trans",                    "&trans",                     "&trans",                         "&none", "&kp LS(P)", "&kp LS(M)", "&kp LS(V)", "&kp LS(X)", "&trans",
        "&trans",    "&trans",    "&trans",    "&trans",       "&trans",             "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                 "&trans",    "&trans",    "&trans",    "&trans", "&trans"
     ],
     [
