@@ -15,6 +15,8 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/rgb.h>
+#include <dt-bindings/zmk/backlight.h>
 
 / {
   behaviors {
@@ -37,61 +39,61 @@
 
         default_layer {
             bindings = <
- &kp ESC   &none   &none    &none    &none   &none                &none                                                               &mo 7   &none   &none   &none   &none   &none      &to 6
-   &none   &kp C   &kp Y    &kp O    &kp K   &none                &none                                                               &none   &none   &kp B   &kp F   &kp W   &kp Q      &none
- &kp TAB   &none   &none    &none    &none   &kp U                &none    &none       &none                      &none    &none      &none   &kp G   &none   &none   &none   &none  &kp ENTER
-   &none   &kp Z   &kp J  &kp SQT  &kp DOT   &none                                     &none                      &none                       &none   &kp P   &kp M   &kp V   &kp X      &none
- &kp ESC   &none   &none    &none    &none                    &kp SPACE  &lt 5 H  &lt 4 BSPC                  &lt 3 DEL  &lt 2 L  &kp SPACE           &none   &none   &none   &none      &none
+ &kp ESC           &none           &none        &none    &none   &none                &none                                                               &mo 7   &none    &none        &none            &none            &none      &to 6
+   &none           &kp C           &kp Y        &kp O    &kp K   &none                &none                                                               &none   &none    &kp B        &kp F            &kp W            &kp Q      &none
+ &kp TAB  &hm LEFT_GUI D  &hm LEFT_ALT I  &hm LCTRL E  &lt 1 A   &kp U                &none    &none       &none                      &none    &none      &none   &kp G  &lt 1 T  &hm RCTRL N  &hm RIGHT_ALT S  &hm RIGHT_GUI R  &kp ENTER
+   &none           &kp Z           &kp J      &kp SQT  &kp DOT   &none                                     &none                      &none                       &none    &kp P        &kp M            &kp V            &kp X      &none
+   &none           &none           &none        &none    &none                    &kp SPACE  &lt 5 H  &lt 4 BSPC                  &lt 3 DEL  &lt 2 L  &kp SPACE            &none        &none            &none            &none      &none
             >;
         };
 
         layer_shifted1 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans   &to 0
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans                   &trans              &trans           &trans     &trans     &trans            &trans                                                        &trans     &trans     &trans           &trans          &trans               &trans  &trans
+ &trans                &kp LS(C)           &kp LS(Y)        &kp LS(O)  &kp LS(K)     &trans            &trans                                                        &trans     &trans  &kp LS(B)        &kp LS(F)       &kp LS(W)            &kp LS(Q)  &trans
+ &kp LS(TAB)  &hm LEFT_GUI LS(D)  &hm LEFT_ALT LS(I)  &hm LCTRL LS(E)  &kp LS(A)  &kp LS(U)            &trans     &trans  &trans                  &trans     &trans  &trans  &kp LS(G)  &kp LS(T)  &hm RCTRL LS(N)  &hm RALT LS(S)  &hm RIGHT_GUI LS(R)  &kp LS(ENTER)
+ &trans                &kp LS(Z)           &kp LS(J)          &kp DQT  &kp COMMA     &trans                               &trans                  &trans                        &trans  &kp LS(P)        &kp LS(M)       &kp LS(V)            &kp LS(X)  &trans
+ &trans                   &trans              &trans           &trans     &trans                       &trans  &kp LS(H)  &trans                  &trans  &kp LS(L)  &trans                &trans           &trans          &trans               &trans  &trans
             >;
         };
 
         layer_symbols2 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans   &to 0
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans         &trans         &trans          &trans           &trans    &trans            &trans                                                  &trans    &trans           &trans          &trans         &trans         &trans  &trans
+ &trans      &kp TILDE       &kp PLUS       &kp MINUS         &kp STAR  &kp BSLH            &trans                                                  &trans  &kp FSLH         &kp AMPS        &kp PIPE       &kp EXCL      &kp COLON  &trans
+ &trans  &hm LGUI HASH  &hm LALT LBKT  &hm LCTRL LBRC  &hm LSHIFT LPAR    &kp LT            &trans  &trans  &trans                  &trans  &trans  &trans    &kp GT  &hm RSHIFT RPAR  &hm RCTRL RBRC  &hm RALT RBKT  &hm RGUI SEMI  &trans
+ &trans      &kp CARET      &kp GRAVE       &kp PRCNT        &kp EQUAL    &trans                            &trans                  &trans                    &trans           &kp AT       &kp UNDER      &kp QMARK       &kp DLLR  &trans
+ &trans         &trans         &trans          &trans           &trans                      &trans  &trans  &trans                  &trans  &trans  &trans                     &trans          &trans         &trans         &trans  &trans
             >;
         };
 
         layer_numbers3 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans   &to 0
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans     &trans     &trans     &trans     &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_N4  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &kp KP_N5  &kp KP_N6  &kp KP_N7  &kp KP_N8  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &kp KP_N9  &kp KP_N0     &trans     &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans             &trans     &trans     &trans     &trans  &trans
             >;
         };
 
         layer_arrows4 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans   &to 0
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans    &trans             &trans           &trans              &trans  &trans            &trans                                                  &trans  &trans    &trans    &trans     &trans  &trans  &trans
+ &trans    &trans             &trans        &kp PG_UP              &trans  &trans            &trans                                                  &trans  &trans    &trans    &kp UP     &trans  &trans  &trans
+ &trans  &kp LGUI  &hm LEFT_ALT HOME  &hm LCTRL PG_DN  &hm LEFT_SHIFT END  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+ &trans    &trans             &trans           &trans              &trans  &trans                            &trans                  &trans                  &trans    &trans    &trans     &trans  &trans  &trans
+ &trans    &trans             &trans           &trans              &trans                    &trans  &trans  &trans                  &trans  &trans  &trans            &trans    &trans     &trans  &trans  &trans
             >;
         };
 
         layer_mouse5 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans   &to 0
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans   &none
             >;
         };
 
@@ -107,11 +109,11 @@
 
         layer_keyboard7 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                      &trans  &trans  &trans  &trans  &trans  &trans   &to 0
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &bt BT_CLR  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &none                                                                          &trans   &none       &none       &none   &none   &none   &none
+  &none         &none         &none         &none         &none         &none            &bootloader                                                                     &bootloader   &none       &none       &none   &none   &none   &none
+  &none         &none         &none         &none         &none         &none                  &none   &none   &none                  &bt BT_CLR       &none  &rgb_ug RGB_MEFS_CMD 5   &none       &none       &none   &none   &none   &none
+  &none         &none         &none         &none         &none         &none                                  &none                       &none                                       &none       &none       &none   &none   &none   &none
+  &none         &none         &none         &none         &none                                &none   &none   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG          &bl BL_INC  &bl BL_DEC   &none   &none   &none
             >;
         };
 
